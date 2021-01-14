@@ -1,0 +1,3 @@
+2020-12-19 16:52:22,404--->>[logging_02.py--->line:45--DEBUG-->>This a debug]
+2020-12-19 16:53:20,141--->>[logging_02.py--->line:45--DEBUG-->>This a debug]
+2020-12-19 16:53:20,142--->>[logging_02.py--->line:46--DEBUG-->>===This a debug===]

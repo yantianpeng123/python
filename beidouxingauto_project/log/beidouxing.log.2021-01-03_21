@@ -1,0 +1,927 @@
+2021-01-03 21:08:55,150--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:08:58,643--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '15218936715', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:08:58,785--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:08:59,357--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:15218936715]
+2021-01-03 21:09:03,778--->>[fixture.py--->line:56--INFO-->>该用户开始登录:15218936715]
+2021-01-03 21:09:03,892--->>[fixture.py--->line:59--INFO-->>用户:10008423登录成功]
+2021-01-03 21:09:12,935--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008423,登录成功]
+2021-01-03 21:09:16,887--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:09:16,888--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:16,905--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:09:16,907--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:16,915--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:09:16,915--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:16,922--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:09:16,922--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:16,929--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:09:17,046--->>[test_add_project.py--->line:58--INFO-->>该用户->10008423<-加标成功]
+2021-01-03 21:09:17,047--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:09:17,048--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:09:17,048--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,051--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:09:17,052--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,057--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:09:17,058--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,062--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:09:17,063--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,068--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:09:17,068--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,071--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:09:17,072--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,078--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:09:17,078--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,083--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:09:17,083--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,088--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:09:17,089--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:09:17,097--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:09:17,098--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:10:08,815--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:10:09,392--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '18163934147', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:10:09,519--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:10:09,717--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:18163934147]
+2021-01-03 21:10:09,887--->>[fixture.py--->line:56--INFO-->>该用户开始登录:18163934147]
+2021-01-03 21:10:09,996--->>[fixture.py--->line:59--INFO-->>用户:10008454登录成功]
+2021-01-03 21:10:10,714--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008454,登录成功]
+2021-01-03 21:10:25,073--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:10:26,514--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '13999651390', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:10:26,810--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:10:27,087--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:13999651390]
+2021-01-03 21:10:27,603--->>[fixture.py--->line:56--INFO-->>该用户开始登录:13999651390]
+2021-01-03 21:10:27,718--->>[fixture.py--->line:59--INFO-->>用户:10008468登录成功]
+2021-01-03 21:11:21,580--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008468,登录成功]
+2021-01-03 21:11:27,949--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:11:27,951--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:27,960--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:11:27,960--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:27,964--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:11:27,965--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:27,968--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:11:27,968--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:27,972--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:11:28,076--->>[test_add_project.py--->line:58--INFO-->>该用户->10008468<-加标成功]
+2021-01-03 21:11:28,077--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:11:28,077--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:11:28,077--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:11:28,077--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:11:28,080--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,085--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:11:28,086--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,094--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:11:28,095--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,099--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:11:28,099--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,104--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:11:28,105--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,110--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:11:28,111--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,117--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:11:28,117--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,123--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:11:28,124--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,129--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:11:28,129--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:11:28,135--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:11:28,135--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,501--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:13:28,565--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '18790747932', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:13:28,698--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:13:28,698--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:18790747932]
+2021-01-03 21:13:28,698--->>[fixture.py--->line:56--INFO-->>该用户开始登录:18790747932]
+2021-01-03 21:13:28,802--->>[fixture.py--->line:59--INFO-->>用户:10008515登录成功]
+2021-01-03 21:13:28,802--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008515,登录成功]
+2021-01-03 21:13:28,808--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:13:28,808--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,813--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:13:28,814--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,816--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:13:28,817--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,820--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:13:28,820--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,823--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:13:28,918--->>[test_add_project.py--->line:58--INFO-->>该用户->10008515<-加标成功]
+2021-01-03 21:13:28,918--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:13:28,918--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:13:28,918--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:13:28,918--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:13:28,919--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,923--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:13:28,923--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,927--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:13:28,927--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,930--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:13:28,930--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,933--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:13:28,934--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,937--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:13:28,938--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,942--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:13:28,942--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,945--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:13:28,945--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,948--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:13:28,949--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:13:28,952--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:13:28,952--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:14,270--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:14:14,340--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '15941472345', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:14:14,469--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:14:14,469--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:15941472345]
+2021-01-03 21:14:14,470--->>[fixture.py--->line:56--INFO-->>该用户开始登录:15941472345]
+2021-01-03 21:14:14,563--->>[fixture.py--->line:59--INFO-->>用户:10008519登录成功]
+2021-01-03 21:14:16,997--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008519,登录成功]
+2021-01-03 21:14:50,047--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:14:50,048--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,056--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:14:50,056--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,060--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:14:50,060--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,063--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:14:50,064--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,067--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:14:50,155--->>[test_add_project.py--->line:58--INFO-->>该用户->10008519<-加标成功]
+2021-01-03 21:14:50,155--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:14:50,155--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:14:50,156--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:14:50,156--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:14:50,157--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,160--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:14:50,160--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,163--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:14:50,164--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,167--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:14:50,167--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,171--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:14:50,171--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,174--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:14:50,175--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,178--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:14:50,178--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,181--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:14:50,181--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,184--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:14:50,185--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:14:50,188--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:14:50,189--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:13,952--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:22:14,015--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '13069777548', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:22:14,141--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:22:14,141--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:13069777548]
+2021-01-03 21:22:14,141--->>[fixture.py--->line:56--INFO-->>该用户开始登录:13069777548]
+2021-01-03 21:22:14,250--->>[fixture.py--->line:59--INFO-->>用户:10008598登录成功]
+2021-01-03 21:22:17,571--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008598,登录成功]
+2021-01-03 21:22:20,203--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:22:20,311--->>[test_add_project.py--->line:60--WARNING-->>该用户->10008598<-加标失败]
+2021-01-03 21:22:20,311--->>[test_add_project.py--->line:60--WARNING-->>该用户->10008598<-加标失败]
+2021-01-03 21:22:20,312--->>[test_add_project.py--->line:61--ERROR-->>用户加标失败: :: 0 != 1]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 56, in test_add_project
+    self.assertEqual(rel_data['code'],expect_data['code']);
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1
+2021-01-03 21:22:20,312--->>[test_add_project.py--->line:61--ERROR-->>用户加标失败: :: 0 != 1]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 56, in test_add_project
+    self.assertEqual(rel_data['code'],expect_data['code']);
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1
+2021-01-03 21:22:20,317--->>[test_add_project.py--->line:62--WARNING-->>测试数据是:{'member_id': 10008598, 'title': 'yuejie专贷', 'amount': 2000, 'loan_rate': 12, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5}]
+2021-01-03 21:22:20,317--->>[test_add_project.py--->line:62--WARNING-->>测试数据是:{'member_id': 10008598, 'title': 'yuejie专贷', 'amount': 2000, 'loan_rate': 12, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5}]
+2021-01-03 21:22:20,318--->>[test_add_project.py--->line:63--WARNING-->>期望数据是:{'code': 1, 'msg': 'OK'}]
+2021-01-03 21:22:20,318--->>[test_add_project.py--->line:63--WARNING-->>期望数据是:{'code': 1, 'msg': 'OK'}]
+2021-01-03 21:22:20,318--->>[test_add_project.py--->line:64--WARNING-->>实际数据是:{'code': 0, 'msg': 'OK', 'data': {'id': 18783, 'member_id': 10008598, 'title': 'yuejie专贷', 'amount': 2000.0, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-01-03 21:22:20.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:22:20,318--->>[test_add_project.py--->line:64--WARNING-->>实际数据是:{'code': 0, 'msg': 'OK', 'data': {'id': 18783, 'member_id': 10008598, 'title': 'yuejie专贷', 'amount': 2000.0, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-01-03 21:22:20.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:22:20,318--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:20,324--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:22:20,420--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:20,420--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:20,479--->>[test_add_project.py--->line:73--INFO-->>该用户:10008598加标成功]
+2021-01-03 21:22:20,479--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:20,481--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:22:20,577--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:20,578--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:20,624--->>[test_add_project.py--->line:73--INFO-->>该用户:10008598加标成功]
+2021-01-03 21:22:20,624--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:20,627--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:22:20,732--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:20,733--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:20,780--->>[test_add_project.py--->line:73--INFO-->>该用户:10008598加标成功]
+2021-01-03 21:22:20,780--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:20,782--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:22:20,878--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:20,879--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:22:20,879--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:22:20,879--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:22:20,879--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'
+2021-01-03 21:22:20,880--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:20,884--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:22:20,984--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:20,985--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款金额为空-->>数据库校验失败]
+2021-01-03 21:22:20,985--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款金额为空-->>数据库校验失败]
+2021-01-03 21:22:20,985--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'amount']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'amount'
+2021-01-03 21:22:20,985--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'amount']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'amount'
+2021-01-03 21:22:20,986--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:20,989--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:22:21,084--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:21,085--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:21,130--->>[test_add_project.py--->line:73--INFO-->>该用户:10008598加标成功]
+2021-01-03 21:22:21,131--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:21,133--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:22:21,230--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:21,230--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:21,275--->>[test_add_project.py--->line:73--INFO-->>该用户:10008598加标成功]
+2021-01-03 21:22:21,275--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:21,276--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:22:21,372--->>[test_add_project.py--->line:60--WARNING-->>该用户->10008598<-加标失败]
+2021-01-03 21:22:21,372--->>[test_add_project.py--->line:60--WARNING-->>该用户->10008598<-加标失败]
+2021-01-03 21:22:21,372--->>[test_add_project.py--->line:61--ERROR-->>用户加标失败: :: 借款期限为空 != 借款日期类型为空]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '借款期限为空' != '借款日期类型为空'
+- 借款期限为空
+?    ^
++ 借款日期类型为空
+?   + ^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 57, in test_add_project
+    self.assertEqual(rel_data['msg'],expect_data['msg']);
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 借款期限为空 != 借款日期类型为空
+2021-01-03 21:22:21,372--->>[test_add_project.py--->line:61--ERROR-->>用户加标失败: :: 借款期限为空 != 借款日期类型为空]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '借款期限为空' != '借款日期类型为空'
+- 借款期限为空
+?    ^
++ 借款日期类型为空
+?   + ^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 57, in test_add_project
+    self.assertEqual(rel_data['msg'],expect_data['msg']);
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 借款期限为空 != 借款日期类型为空
+2021-01-03 21:22:21,374--->>[test_add_project.py--->line:62--WARNING-->>测试数据是:{'member_id': 10008598, 'title': 'yuejie专贷', 'amount': 2000, 'loan_rate': 12, 'loan_date_type': 1, 'bidding_days': 5}]
+2021-01-03 21:22:21,374--->>[test_add_project.py--->line:62--WARNING-->>测试数据是:{'member_id': 10008598, 'title': 'yuejie专贷', 'amount': 2000, 'loan_rate': 12, 'loan_date_type': 1, 'bidding_days': 5}]
+2021-01-03 21:22:21,376--->>[test_add_project.py--->line:63--WARNING-->>期望数据是:{'code': 1, 'msg': '借款日期类型为空'}]
+2021-01-03 21:22:21,376--->>[test_add_project.py--->line:63--WARNING-->>期望数据是:{'code': 1, 'msg': '借款日期类型为空'}]
+2021-01-03 21:22:21,376--->>[test_add_project.py--->line:64--WARNING-->>实际数据是:{'code': 1, 'msg': '借款期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:22:21,376--->>[test_add_project.py--->line:64--WARNING-->>实际数据是:{'code': 1, 'msg': '借款期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:22:21,377--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:21,381--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:22:21,481--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:21,481--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:21,527--->>[test_add_project.py--->line:73--INFO-->>该用户:10008598加标成功]
+2021-01-03 21:22:21,527--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:21,530--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:22:21,634--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:21,634--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=3]
+2021-01-03 21:22:21,686--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款期限类型不是1和2-->>数据库校验失败]
+2021-01-03 21:22:21,686--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款期限类型不是1和2-->>数据库校验失败]
+2021-01-03 21:22:21,687--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:False is not true]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 72, in test_add_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2021-01-03 21:22:21,687--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:False is not true]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 72, in test_add_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2021-01-03 21:22:21,688--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:21,692--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:22:21,796--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:21,798--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:21,845--->>[test_add_project.py--->line:73--INFO-->>该用户:10008598加标成功]
+2021-01-03 21:22:21,845--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:21,847--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:22:21,959--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:21,959--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=-20 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:22,011--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款金额为负数-->>数据库校验失败]
+2021-01-03 21:22:22,011--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款金额为负数-->>数据库校验失败]
+2021-01-03 21:22:22,012--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:False is not true]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 72, in test_add_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2021-01-03 21:22:22,012--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:False is not true]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 72, in test_add_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2021-01-03 21:22:22,013--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:22:22,017--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:22:22,117--->>[test_add_project.py--->line:58--INFO-->>该用户->10008598<-加标成功]
+2021-01-03 21:22:22,117--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008598加标的sql是:select id from loan where member_id=10008598 and amount=20.0 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:22:22,166--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款金额为小数-->>数据库校验失败]
+2021-01-03 21:22:22,166--->>[test_add_project.py--->line:75--WARNING-->>加标失败--借款金额为小数-->>数据库校验失败]
+2021-01-03 21:22:22,167--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:False is not true]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 72, in test_add_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2021-01-03 21:22:22,167--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:False is not true]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 72, in test_add_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 765, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2021-01-03 21:22:22,168--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:23:08,807--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:23:08,866--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '18301366146', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:23:08,989--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:23:08,989--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:18301366146]
+2021-01-03 21:23:08,989--->>[fixture.py--->line:56--INFO-->>该用户开始登录:18301366146]
+2021-01-03 21:23:09,082--->>[fixture.py--->line:59--INFO-->>用户:10008599登录成功]
+2021-01-03 21:23:11,799--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008599,登录成功]
+2021-01-03 21:23:24,497--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:24:28,542--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:24:28,603--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '18260023979', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:24:28,735--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:24:28,735--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:18260023979]
+2021-01-03 21:24:28,736--->>[fixture.py--->line:56--INFO-->>该用户开始登录:18260023979]
+2021-01-03 21:24:28,852--->>[fixture.py--->line:59--INFO-->>用户:10008603登录成功]
+2021-01-03 21:24:28,852--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008603,登录成功]
+2021-01-03 21:24:31,453--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:24:40,692--->>[test_add_project.py--->line:58--INFO-->>该用户->10008603<-加标成功]
+2021-01-03 21:24:49,369--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008603加标的sql是:select id from loan where member_id=10008603 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:24:58,760--->>[test_add_project.py--->line:73--INFO-->>该用户:10008603加标成功]
+2021-01-03 21:25:01,078--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:25:04,811--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:25:28,255--->>[test_add_project.py--->line:58--INFO-->>该用户->10008603<-加标成功]
+2021-01-03 21:25:31,070--->>[test_add_project.py--->line:71--INFO-->>查询用户:10008603加标的sql是:select id from loan where member_id=10008603 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:25:51,691--->>[test_add_project.py--->line:73--INFO-->>该用户:10008603加标成功]
+2021-01-03 21:25:54,243--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:25:57,230--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:26:24,340--->>[test_add_project.py--->line:58--INFO-->>该用户->10008603<-加标成功]
+2021-01-03 21:26:39,902--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:26:39,961--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '13314764859', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:26:40,093--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:26:40,093--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:13314764859]
+2021-01-03 21:26:40,094--->>[fixture.py--->line:56--INFO-->>该用户开始登录:13314764859]
+2021-01-03 21:26:40,199--->>[fixture.py--->line:59--INFO-->>用户:10008611登录成功]
+2021-01-03 21:26:40,200--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008611,登录成功]
+2021-01-03 21:26:42,932--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:26:51,733--->>[test_add_project.py--->line:70--INFO-->>查询用户:10008611加标的sql是:select id from loan where member_id=10008611 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:26:54,752--->>[test_add_project.py--->line:72--INFO-->>该用户:10008611加标成功]
+2021-01-03 21:26:57,386--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:27:00,552--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:27:45,205--->>[test_add_project.py--->line:70--INFO-->>查询用户:10008611加标的sql是:select id from loan where member_id=10008611 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:28:22,841--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:28:22,898--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '15083676324', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:28:23,015--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:28:23,015--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:15083676324]
+2021-01-03 21:28:23,016--->>[fixture.py--->line:56--INFO-->>该用户开始登录:15083676324]
+2021-01-03 21:28:23,118--->>[fixture.py--->line:59--INFO-->>用户:10008626登录成功]
+2021-01-03 21:28:23,118--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008626,登录成功]
+2021-01-03 21:28:25,134--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:28:29,616--->>[test_add_project.py--->line:72--INFO-->>查询用户:10008626加标的sql是:select id from loan where member_id=10008626 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:28:34,688--->>[test_add_project.py--->line:74--INFO-->>该用户:10008626加标成功]
+2021-01-03 21:28:37,406--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:28:40,194--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:28:45,252--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:28:47,390--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:28:56,184--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:03,320--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:29:17,581--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:18,718--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:29:23,598--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:26,655--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:29:33,846--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:36,288--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:29:36,515--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:36,623--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:29:36,728--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:36,767--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:29:36,878--->>[test_add_project.py--->line:59--WARNING-->>该用户->10008626<-加标失败]
+2021-01-03 21:29:36,878--->>[test_add_project.py--->line:59--WARNING-->>该用户->10008626<-加标失败]
+2021-01-03 21:29:36,879--->>[test_add_project.py--->line:60--ERROR-->>用户加标失败: :: 借款期限为空 != 借款日期类型为空]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '借款期限为空' != '借款日期类型为空'
+- 借款期限为空
+?    ^
++ 借款日期类型为空
+?   + ^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 57, in test_add_project
+    self.assertEqual(rel_data['msg'],expect_data['msg']);
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 借款期限为空 != 借款日期类型为空
+2021-01-03 21:29:36,879--->>[test_add_project.py--->line:60--ERROR-->>用户加标失败: :: 借款期限为空 != 借款日期类型为空]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '借款期限为空' != '借款日期类型为空'
+- 借款期限为空
+?    ^
++ 借款日期类型为空
+?   + ^^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 57, in test_add_project
+    self.assertEqual(rel_data['msg'],expect_data['msg']);
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 借款期限为空 != 借款日期类型为空
+2021-01-03 21:29:36,881--->>[test_add_project.py--->line:61--WARNING-->>测试数据是:{'member_id': 10008626, 'title': 'yuejie专贷', 'amount': 2000, 'loan_rate': 12, 'loan_date_type': 1, 'bidding_days': 5}]
+2021-01-03 21:29:36,881--->>[test_add_project.py--->line:61--WARNING-->>测试数据是:{'member_id': 10008626, 'title': 'yuejie专贷', 'amount': 2000, 'loan_rate': 12, 'loan_date_type': 1, 'bidding_days': 5}]
+2021-01-03 21:29:36,881--->>[test_add_project.py--->line:62--WARNING-->>期望数据是:{'code': 1, 'msg': '借款日期类型为空'}]
+2021-01-03 21:29:36,881--->>[test_add_project.py--->line:62--WARNING-->>期望数据是:{'code': 1, 'msg': '借款日期类型为空'}]
+2021-01-03 21:29:36,882--->>[test_add_project.py--->line:63--WARNING-->>实际数据是:{'code': 1, 'msg': '借款期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:29:36,882--->>[test_add_project.py--->line:63--WARNING-->>实际数据是:{'code': 1, 'msg': '借款期限为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:29:36,882--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:36,943--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:29:37,053--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:37,115--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:29:37,225--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:37,463--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:29:37,568--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:38,045--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:29:38,173--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:29:38,211--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:29:38,328--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:39,232--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:33:39,288--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '13120170583', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:33:39,404--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:33:39,405--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:13120170583]
+2021-01-03 21:33:39,405--->>[fixture.py--->line:56--INFO-->>该用户开始登录:13120170583]
+2021-01-03 21:33:39,523--->>[fixture.py--->line:59--INFO-->>用户:10008641登录成功]
+2021-01-03 21:33:39,523--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008641,登录成功]
+2021-01-03 21:33:39,526--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:33:39,619--->>[test_add_project.py--->line:72--INFO-->>查询用户:10008641加标的sql是:select id from loan where member_id=10008641 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:33:39,670--->>[test_add_project.py--->line:74--INFO-->>该用户:10008641加标成功]
+2021-01-03 21:33:39,670--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:39,671--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:33:39,782--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:39,783--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:33:39,867--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:39,868--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:33:39,954--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:39,955--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:33:40,060--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,062--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:33:40,164--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,165--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:33:40,269--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,270--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:33:40,368--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,370--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:33:40,458--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,459--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:33:40,556--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,557--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:33:40,652--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,653--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:33:40,756--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,758--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:33:40,858--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:40,859--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:33:40,960--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:58,489--->>[base_test_case.py--->line:36--INFO-->>开始测试加标接口]
+2021-01-03 21:33:58,548--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '13369984053', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:33:58,662--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:33:58,662--->>[test_add_project.py--->line:34--INFO-->>加标接口生成的手机号是:13369984053]
+2021-01-03 21:33:58,662--->>[fixture.py--->line:56--INFO-->>该用户开始登录:13369984053]
+2021-01-03 21:33:58,771--->>[fixture.py--->line:59--INFO-->>用户:10008642登录成功]
+2021-01-03 21:33:58,771--->>[test_add_project.py--->line:39--INFO-->>该用户是:10008642,登录成功]
+2021-01-03 21:33:58,772--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标成功<<--接口]
+2021-01-03 21:33:58,865--->>[test_add_project.py--->line:72--INFO-->>查询用户:10008642加标的sql是:select id from loan where member_id=10008642 and amount=2000 and title='yuejie专贷' and loan_date_type=1]
+2021-01-03 21:33:58,936--->>[test_add_project.py--->line:74--INFO-->>该用户:10008642加标成功]
+2021-01-03 21:33:58,936--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:58,936--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id为空<<--接口]
+2021-01-03 21:33:59,024--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,024--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不是当前登录<<--接口]
+2021-01-03 21:33:59,113--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,114--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--用户id不存在<<--接口]
+2021-01-03 21:33:59,210--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,210--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--标题为空<<--接口]
+2021-01-03 21:33:59,305--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,305--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为空<<--接口]
+2021-01-03 21:33:59,414--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,414--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--年利率为空<<--接口]
+2021-01-03 21:33:59,512--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,513--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限为空<<--接口]
+2021-01-03 21:33:59,614--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,615--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型为空<<--接口]
+2021-01-03 21:33:59,705--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,705--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数为空<<--接口]
+2021-01-03 21:33:59,796--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,796--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款期限类型不是1和2<<--接口]
+2021-01-03 21:33:59,898--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:33:59,898--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--竞标天数大于10天<<--接口]
+2021-01-03 21:34:00,001--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:34:00,001--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为负数<<--接口]
+2021-01-03 21:34:00,105--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:34:00,105--->>[test_add_project.py--->line:43--INFO-->>开始测试-->>加标失败--借款金额为小数<<--接口]
+2021-01-03 21:34:00,220--->>[base_test_case.py--->line:40--INFO-->>加标接口功能结束]
+2021-01-03 21:34:00,220--->>[base_test_case.py--->line:36--INFO-->>开始测试登录接口]
+2021-01-03 21:34:00,327--->>[base_test_case.py--->line:40--INFO-->>登录接口功能结束]
+2021-01-03 21:34:00,429--->>[base_test_case.py--->line:40--INFO-->>登录接口功能结束]
+2021-01-03 21:34:00,528--->>[base_test_case.py--->line:40--INFO-->>登录接口功能结束]
+2021-01-03 21:34:00,634--->>[base_test_case.py--->line:40--INFO-->>登录接口功能结束]
+2021-01-03 21:34:00,723--->>[base_test_case.py--->line:40--INFO-->>登录接口功能结束]
+2021-01-03 21:34:00,723--->>[base_test_case.py--->line:36--INFO-->>开始测试充值接口]
+2021-01-03 21:34:00,774--->>[test_recharge.py--->line:34--INFO-->>测试充值接口生成的手机号是:18409891759]
+2021-01-03 21:34:00,775--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '18409891759', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:34:00,893--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:34:00,894--->>[fixture.py--->line:56--INFO-->>该用户开始登录:18409891759]
+2021-01-03 21:34:00,995--->>[fixture.py--->line:59--INFO-->>用户:10008643登录成功]
+2021-01-03 21:34:00,995--->>[test_recharge.py--->line:40--INFO-->>当前用户10008643登录成功]
+2021-01-03 21:34:00,995--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值成功--整数<<--接口=====]
+2021-01-03 21:34:00,996--->>[test_recharge.py--->line:53--INFO-->>查询该用户:10008643充值之前的sql是:select leave_amount from member where id='10008643']
+2021-01-03 21:34:01,038--->>[test_recharge.py--->line:56--INFO-->>该用户:10008643充值之前的余额是:0.00]
+2021-01-03 21:34:01,039--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:01,175--->>[test_recharge.py--->line:78--INFO-->>该用户:10008643,充值之后的余额是:10000.00]
+2021-01-03 21:34:01,175--->>[test_recharge.py--->line:84--INFO-->>数据库校验成功,该用户10008643充值成功]
+2021-01-03 21:34:01,175--->>[test_recharge.py--->line:93--INFO-->>数据库余额和当前接口返回是一致]
+2021-01-03 21:34:01,175--->>[test_recharge.py--->line:100--INFO-->>开始校验该用户:10008643是否生成流水账单]
+2021-01-03 21:34:01,175--->>[test_recharge.py--->line:104--INFO-->>校验该用户:10008643 生成流水账单的sql是:select id from financelog where income_member_id='10008643' and amount=10000 and income_member_money=10000.00]
+2021-01-03 21:34:01,229--->>[test_recharge.py--->line:106--INFO-->>该用户:10008643生成流水账单校验通过]
+2021-01-03 21:34:01,230--->>[test_recharge.py--->line:107--INFO-->>该用户10008643充值成功，充值的金额是:10000]
+2021-01-03 21:34:01,230--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:01,230--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值成功--一位小数<<--接口=====]
+2021-01-03 21:34:01,231--->>[test_recharge.py--->line:53--INFO-->>查询该用户:10008643充值之前的sql是:select leave_amount from member where id='10008643']
+2021-01-03 21:34:01,275--->>[test_recharge.py--->line:56--INFO-->>该用户:10008643充值之前的余额是:10000.00]
+2021-01-03 21:34:01,275--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:01,419--->>[test_recharge.py--->line:78--INFO-->>该用户:10008643,充值之后的余额是:10100.20]
+2021-01-03 21:34:01,419--->>[test_recharge.py--->line:84--INFO-->>数据库校验成功,该用户10008643充值成功]
+2021-01-03 21:34:01,419--->>[test_recharge.py--->line:93--INFO-->>数据库余额和当前接口返回是一致]
+2021-01-03 21:34:01,419--->>[test_recharge.py--->line:100--INFO-->>开始校验该用户:10008643是否生成流水账单]
+2021-01-03 21:34:01,420--->>[test_recharge.py--->line:104--INFO-->>校验该用户:10008643 生成流水账单的sql是:select id from financelog where income_member_id='10008643' and amount=100.2 and income_member_money=10100.20]
+2021-01-03 21:34:01,475--->>[test_recharge.py--->line:106--INFO-->>该用户:10008643生成流水账单校验通过]
+2021-01-03 21:34:01,475--->>[test_recharge.py--->line:107--INFO-->>该用户10008643充值成功，充值的金额是:100.2]
+2021-01-03 21:34:01,475--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:01,475--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值成功--2位小数<<--接口=====]
+2021-01-03 21:34:01,475--->>[test_recharge.py--->line:53--INFO-->>查询该用户:10008643充值之前的sql是:select leave_amount from member where id='10008643']
+2021-01-03 21:34:01,516--->>[test_recharge.py--->line:56--INFO-->>该用户:10008643充值之前的余额是:10100.20]
+2021-01-03 21:34:01,517--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:01,652--->>[test_recharge.py--->line:78--INFO-->>该用户:10008643,充值之后的余额是:10200.43]
+2021-01-03 21:34:01,652--->>[test_recharge.py--->line:84--INFO-->>数据库校验成功,该用户10008643充值成功]
+2021-01-03 21:34:01,652--->>[test_recharge.py--->line:93--INFO-->>数据库余额和当前接口返回是一致]
+2021-01-03 21:34:01,652--->>[test_recharge.py--->line:100--INFO-->>开始校验该用户:10008643是否生成流水账单]
+2021-01-03 21:34:01,652--->>[test_recharge.py--->line:104--INFO-->>校验该用户:10008643 生成流水账单的sql是:select id from financelog where income_member_id='10008643' and amount=100.23 and income_member_money=10200.43]
+2021-01-03 21:34:01,705--->>[test_recharge.py--->line:106--INFO-->>该用户:10008643生成流水账单校验通过]
+2021-01-03 21:34:01,705--->>[test_recharge.py--->line:107--INFO-->>该用户10008643充值成功，充值的金额是:100.23]
+2021-01-03 21:34:01,705--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:01,706--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值成功--50万<<--接口=====]
+2021-01-03 21:34:01,706--->>[test_recharge.py--->line:53--INFO-->>查询该用户:10008643充值之前的sql是:select leave_amount from member where id='10008643']
+2021-01-03 21:34:01,746--->>[test_recharge.py--->line:56--INFO-->>该用户:10008643充值之前的余额是:10200.43]
+2021-01-03 21:34:01,747--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:01,889--->>[test_recharge.py--->line:78--INFO-->>该用户:10008643,充值之后的余额是:510200.43]
+2021-01-03 21:34:01,890--->>[test_recharge.py--->line:84--INFO-->>数据库校验成功,该用户10008643充值成功]
+2021-01-03 21:34:01,890--->>[test_recharge.py--->line:93--INFO-->>数据库余额和当前接口返回是一致]
+2021-01-03 21:34:01,890--->>[test_recharge.py--->line:100--INFO-->>开始校验该用户:10008643是否生成流水账单]
+2021-01-03 21:34:01,890--->>[test_recharge.py--->line:104--INFO-->>校验该用户:10008643 生成流水账单的sql是:select id from financelog where income_member_id='10008643' and amount=500000 and income_member_money=510200.43]
+2021-01-03 21:34:01,943--->>[test_recharge.py--->line:106--INFO-->>该用户:10008643生成流水账单校验通过]
+2021-01-03 21:34:01,943--->>[test_recharge.py--->line:107--INFO-->>该用户10008643充值成功，充值的金额是:500000]
+2021-01-03 21:34:01,943--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:01,944--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--会员id为空<<--接口=====]
+2021-01-03 21:34:01,944--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,043--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,043--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--会员ID不是当前登录用户<<--接口=====]
+2021-01-03 21:34:02,043--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,139--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,140--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--会员id为字符串<<--接口=====]
+2021-01-03 21:34:02,140--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,238--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,239--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--会员id为小数<<--接口=====]
+2021-01-03 21:34:02,239--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,332--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,332--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--金额为空<<--接口=====]
+2021-01-03 21:34:02,333--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,439--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,440--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--金额大于50万<<--接口=====]
+2021-01-03 21:34:02,440--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,534--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,535--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--金额为3位小数<<--接口=====]
+2021-01-03 21:34:02,535--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,621--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,622--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--金额为负数<<--接口=====]
+2021-01-03 21:34:02,622--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,722--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,722--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--金额为非数字<<--接口=====]
+2021-01-03 21:34:02,723--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,817--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,818--->>[test_recharge.py--->line:45--INFO-->>===开始测试->>充值失败--金额为0<<--接口=====]
+2021-01-03 21:34:02,818--->>[test_recharge.py--->line:61--INFO-->>该用户:10008643开始充值]
+2021-01-03 21:34:02,915--->>[test_recharge.py--->line:70--ERROR-->>充值失败--金额为0:测试失败]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_recharge.py", line 66, in test_recharge
+    self.assertEqual(rel_data['code'],expect_data['code']);
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2021-01-03 21:34:02,915--->>[test_recharge.py--->line:70--ERROR-->>充值失败--金额为0:测试失败]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_recharge.py", line 66, in test_recharge
+    self.assertEqual(rel_data['code'],expect_data['code']);
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2021-01-03 21:34:02,917--->>[test_recharge.py--->line:71--WARNING-->>请求数据是:{'member_id': 10008643, 'amount': 0}]
+2021-01-03 21:34:02,917--->>[test_recharge.py--->line:71--WARNING-->>请求数据是:{'member_id': 10008643, 'amount': 0}]
+2021-01-03 21:34:02,917--->>[test_recharge.py--->line:72--WARNING-->>期望数据是:{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000'}]
+2021-01-03 21:34:02,917--->>[test_recharge.py--->line:72--WARNING-->>期望数据是:{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000'}]
+2021-01-03 21:34:02,917--->>[test_recharge.py--->line:73--WARNING-->>实际结果是:{'code': 0, 'msg': 'OK', 'data': {'id': 10008643, 'leave_amount': 510200.43, 'mobile_phone': '18409891759', 'reg_name': '小柠檬', 'reg_time': '2021-01-03 21:34:00.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:34:02,917--->>[test_recharge.py--->line:73--WARNING-->>实际结果是:{'code': 0, 'msg': 'OK', 'data': {'id': 10008643, 'leave_amount': 510200.43, 'mobile_phone': '18409891759', 'reg_name': '小柠檬', 'reg_time': '2021-01-03 21:34:00.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]
+2021-01-03 21:34:02,917--->>[base_test_case.py--->line:40--INFO-->>充值接口功能结束]
+2021-01-03 21:34:02,917--->>[base_test_case.py--->line:36--INFO-->>开始测试注册接口]
+2021-01-03 21:34:02,971--->>[test_register.py--->line:32--INFO-->>生成的手机号码是：15129676016]
+2021-01-03 21:34:03,075--->>[test_register.py--->line:66--WARNING-->>数据库校验执行的sql:select id from member where mobile_phone = '15129676016' and type =0 ]
+2021-01-03 21:34:03,075--->>[test_register.py--->line:66--WARNING-->>数据库校验执行的sql:select id from member where mobile_phone = '15129676016' and type =0 ]
+2021-01-03 21:34:03,124--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:03,179--->>[test_register.py--->line:32--INFO-->>生成的手机号码是：18263831522]
+2021-01-03 21:34:03,288--->>[test_register.py--->line:66--WARNING-->>数据库校验执行的sql:select id  from member where mobile_phone = '18263831522' and type =0]
+2021-01-03 21:34:03,288--->>[test_register.py--->line:66--WARNING-->>数据库校验执行的sql:select id  from member where mobile_phone = '18263831522' and type =0]
+2021-01-03 21:34:03,339--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:03,394--->>[test_register.py--->line:32--INFO-->>生成的手机号码是：13186718922]
+2021-01-03 21:34:03,499--->>[test_register.py--->line:66--WARNING-->>数据库校验执行的sql:select id  from member where mobile_phone = '13186718922' and type =1]
+2021-01-03 21:34:03,499--->>[test_register.py--->line:66--WARNING-->>数据库校验执行的sql:select id  from member where mobile_phone = '13186718922' and type =1]
+2021-01-03 21:34:03,552--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:03,650--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:03,754--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:03,860--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:03,960--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:04,062--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:04,162--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:04,253--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:04,349--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:04,444--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:04,531--->>[base_test_case.py--->line:40--INFO-->>注册接口功能结束]
+2021-01-03 21:34:04,531--->>[base_test_case.py--->line:36--INFO-->>开始测试提现接口]
+2021-01-03 21:34:04,583--->>[test_withdraw.py--->line:32--INFO-->>生成的手机号是:15609457691]
+2021-01-03 21:34:04,583--->>[fixture.py--->line:32--INFO-->>开始注册用户:{'mobile_phone': '15609457691', 'pwd': '12345678', 'type': 1}]
+2021-01-03 21:34:04,691--->>[fixture.py--->line:35--INFO-->>注册用户成功]
+2021-01-03 21:34:04,691--->>[fixture.py--->line:56--INFO-->>该用户开始登录:15609457691]
+2021-01-03 21:34:04,795--->>[fixture.py--->line:59--INFO-->>用户:10008647登录成功]
+2021-01-03 21:34:04,795--->>[fixture.py--->line:82--INFO-->>用户:10008647,充值:500000元]
+2021-01-03 21:34:04,893--->>[fixture.py--->line:85--INFO-->>用户:10008647充值成功]
+2021-01-03 21:34:04,893--->>[fixture.py--->line:82--INFO-->>用户:10008647,充值:100000元]
+2021-01-03 21:34:04,992--->>[fixture.py--->line:85--INFO-->>用户:10008647充值成功]
+2021-01-03 21:34:04,992--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现成功--整数===]
+2021-01-03 21:34:05,036--->>[test_withdraw.py--->line:55--INFO-->>查询提前之前的余额的sql是:select leave_amount from member where id=10008647]
+2021-01-03 21:34:05,036--->>[test_withdraw.py--->line:56--INFO-->>用户10008647提现之前的余额是:600000.00]
+2021-01-03 21:34:05,137--->>[test_withdraw.py--->line:66--INFO-->>===测试提现成功--整数结束====]
+2021-01-03 21:34:05,181--->>[test_withdraw.py--->line:76--INFO-->>用户10008647提现之前的余额是:{'leave_amount': Decimal('599000.00')}]
+2021-01-03 21:34:05,181--->>[test_withdraw.py--->line:86--INFO-->>===校验是否生成流水账单=======]
+2021-01-03 21:34:05,181--->>[test_withdraw.py--->line:89--INFO-->>生成流水账单的sql是:select id from financeLog where pay_member_id=10008647 and amount=1000 and pay_member_money =599000.00 ]
+2021-01-03 21:34:05,230--->>[test_withdraw.py--->line:91--INFO-->>=====流水账单生成成功=======]
+2021-01-03 21:34:05,230--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:05,231--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现成功--1位小数===]
+2021-01-03 21:34:05,275--->>[test_withdraw.py--->line:55--INFO-->>查询提前之前的余额的sql是:select leave_amount from member where id=10008647]
+2021-01-03 21:34:05,276--->>[test_withdraw.py--->line:56--INFO-->>用户10008647提现之前的余额是:599000.00]
+2021-01-03 21:34:05,375--->>[test_withdraw.py--->line:66--INFO-->>===测试提现成功--1位小数结束====]
+2021-01-03 21:34:05,417--->>[test_withdraw.py--->line:76--INFO-->>用户10008647提现之前的余额是:{'leave_amount': Decimal('590111.20')}]
+2021-01-03 21:34:05,417--->>[test_withdraw.py--->line:86--INFO-->>===校验是否生成流水账单=======]
+2021-01-03 21:34:05,417--->>[test_withdraw.py--->line:89--INFO-->>生成流水账单的sql是:select id from financeLog where pay_member_id=10008647 and amount=8888.8 and pay_member_money =590111.20 ]
+2021-01-03 21:34:05,467--->>[test_withdraw.py--->line:91--INFO-->>=====流水账单生成成功=======]
+2021-01-03 21:34:05,467--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:05,468--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现成功--2位小数===]
+2021-01-03 21:34:05,508--->>[test_withdraw.py--->line:55--INFO-->>查询提前之前的余额的sql是:select leave_amount from member where id=10008647]
+2021-01-03 21:34:05,509--->>[test_withdraw.py--->line:56--INFO-->>用户10008647提现之前的余额是:590111.20]
+2021-01-03 21:34:05,610--->>[test_withdraw.py--->line:66--INFO-->>===测试提现成功--2位小数结束====]
+2021-01-03 21:34:05,654--->>[test_withdraw.py--->line:76--INFO-->>用户10008647提现之前的余额是:{'leave_amount': Decimal('581222.32')}]
+2021-01-03 21:34:05,655--->>[test_withdraw.py--->line:86--INFO-->>===校验是否生成流水账单=======]
+2021-01-03 21:34:05,655--->>[test_withdraw.py--->line:89--INFO-->>生成流水账单的sql是:select id from financeLog where pay_member_id=10008647 and amount=8888.88 and pay_member_money =581222.32 ]
+2021-01-03 21:34:05,704--->>[test_withdraw.py--->line:91--INFO-->>=====流水账单生成成功=======]
+2021-01-03 21:34:05,704--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:05,705--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现成功--提现金额为0===]
+2021-01-03 21:34:05,745--->>[test_withdraw.py--->line:55--INFO-->>查询提前之前的余额的sql是:select leave_amount from member where id=10008647]
+2021-01-03 21:34:05,746--->>[test_withdraw.py--->line:56--INFO-->>用户10008647提现之前的余额是:581222.32]
+2021-01-03 21:34:05,847--->>[test_withdraw.py--->line:66--INFO-->>===测试提现成功--提现金额为0结束====]
+2021-01-03 21:34:05,903--->>[test_withdraw.py--->line:76--INFO-->>用户10008647提现之前的余额是:{'leave_amount': Decimal('581222.32')}]
+2021-01-03 21:34:05,904--->>[test_withdraw.py--->line:86--INFO-->>===校验是否生成流水账单=======]
+2021-01-03 21:34:05,904--->>[test_withdraw.py--->line:89--INFO-->>生成流水账单的sql是:select id from financeLog where pay_member_id=10008647 and amount=0 and pay_member_money =581222.32 ]
+2021-01-03 21:34:05,953--->>[test_withdraw.py--->line:91--INFO-->>=====流水账单生成成功=======]
+2021-01-03 21:34:05,953--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:05,953--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现成功--50万提现===]
+2021-01-03 21:34:05,997--->>[test_withdraw.py--->line:55--INFO-->>查询提前之前的余额的sql是:select leave_amount from member where id=10008647]
+2021-01-03 21:34:05,997--->>[test_withdraw.py--->line:56--INFO-->>用户10008647提现之前的余额是:581222.32]
+2021-01-03 21:34:06,111--->>[test_withdraw.py--->line:66--INFO-->>===测试提现成功--50万提现结束====]
+2021-01-03 21:34:06,158--->>[test_withdraw.py--->line:76--INFO-->>用户10008647提现之前的余额是:{'leave_amount': Decimal('81222.32')}]
+2021-01-03 21:34:06,158--->>[test_withdraw.py--->line:86--INFO-->>===校验是否生成流水账单=======]
+2021-01-03 21:34:06,159--->>[test_withdraw.py--->line:89--INFO-->>生成流水账单的sql是:select id from financeLog where pay_member_id=10008647 and amount=500000 and pay_member_money =81222.32 ]
+2021-01-03 21:34:06,208--->>[test_withdraw.py--->line:91--INFO-->>=====流水账单生成成功=======]
+2021-01-03 21:34:06,208--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,209--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--提现金额大于余额===]
+2021-01-03 21:34:06,310--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--提现金额大于余额结束====]
+2021-01-03 21:34:06,310--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,310--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--提现金额大于50万===]
+2021-01-03 21:34:06,413--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--提现金额大于50万结束====]
+2021-01-03 21:34:06,414--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,414--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--体现金额3位小数===]
+2021-01-03 21:34:06,505--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--体现金额3位小数结束====]
+2021-01-03 21:34:06,506--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,506--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--提现金额为负数===]
+2021-01-03 21:34:06,605--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--提现金额为负数结束====]
+2021-01-03 21:34:06,605--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,605--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--提现金额包含特殊符号===]
+2021-01-03 21:34:06,711--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--提现金额包含特殊符号结束====]
+2021-01-03 21:34:06,711--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,712--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--提现金额为空===]
+2021-01-03 21:34:06,809--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--提现金额为空结束====]
+2021-01-03 21:34:06,809--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,809--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--用户id为空===]
+2021-01-03 21:34:06,908--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--用户id为空结束====]
+2021-01-03 21:34:06,909--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,909--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--用户id不是当前登录用户===]
+2021-01-03 21:34:06,995--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--用户id不是当前登录用户结束====]
+2021-01-03 21:34:06,995--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-03 21:34:06,995--->>[test_withdraw.py--->line:44--INFO-->>===开始测试提现失败--用户id为数值===]
+2021-01-03 21:34:07,098--->>[test_withdraw.py--->line:66--INFO-->>===测试提现失败--用户id为数值结束====]
+2021-01-03 21:34:07,098--->>[base_test_case.py--->line:40--INFO-->>提现接口功能结束]
+2021-01-05 20:45:45,913--->>[test_audit_project.py--->line:95--ERROR-->>审核成功数据库校验失败]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_audit_project.py", line 87, in test_audit_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/common/mysql_handler.py", line 27, in Isexist
+    self.cur.execute(sql);
+  File "/usr/local/lib/python3.8/site-packages/pymysql/cursors.py", line 163, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 724, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.8/site-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1")
+2021-01-05 20:45:46,176--->>[test_audit_project.py--->line:95--ERROR-->>审核失败数据库校验失败]
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_audit_project.py", line 92, in test_audit_project
+    self.assertTrue(self.db.Isexist(sql=sql));
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/common/mysql_handler.py", line 27, in Isexist
+    self.cur.execute(sql);
+  File "/usr/local/lib/python3.8/site-packages/pymysql/cursors.py", line 163, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 724, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.8/site-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.8/site-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.8/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1")
+2021-01-05 20:45:46,963--->>[test_audit_project.py--->line:76--ERROR-->>审核失败--多次审核:测试失败]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_audit_project.py", line 73, in test_audit_project
+    self.assertEqual(rel_data['code'],expect_data['code']);
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2021-01-05 20:45:46,965--->>[test_audit_project.py--->line:77--WARNING-->>请求数据是:{'loan_id': 26286, 'approved_or_not': False}]
+2021-01-05 20:45:46,965--->>[test_audit_project.py--->line:78--WARNING-->>期望结果是:{'code': 2, 'msg': '项目不在审核中状态'}]
+2021-01-05 20:45:46,965--->>[test_audit_project.py--->line:79--WARNING-->>实际结果是:{'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}]

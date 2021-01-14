@@ -1,0 +1,6 @@
+2021-01-03 21:09:17,047--->>[test_add_project.py--->line:75--WARNING-->>加标失败--标题为空-->>数据库校验失败]
+2021-01-03 21:09:17,048--->>[test_add_project.py--->line:76--ERROR-->>数据库异常:'title']
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_add_project.py", line 70, in test_add_project
+    format(self.member_id,request_data['amount'],request_data['title'],request_data['loan_date_type']);
+KeyError: 'title'

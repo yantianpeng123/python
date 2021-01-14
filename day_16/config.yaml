@@ -1,0 +1,4 @@
+log:
+  file: beidouxing.log
+  debug: False
+  format: "%(asctime)s--->>[%(filename)s--->line:%(lineno)d--%(levelname)s-->>%(message)s]"#带有特殊符号必须使用双引号
