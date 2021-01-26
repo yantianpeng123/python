@@ -1,0 +1,209 @@
+{
+  "uid" : "13af5532cd7553b5",
+  "name" : "test_answer_01",
+  "fullName" : "test_case_05#test_answer_01",
+  "historyId" : "cd9ea947d233687b5a3a899b477860d6",
+  "time" : {
+    "start" : 1610630976948,
+    "stop" : 1610630976948,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "duration",
+    "time" : {
+      "start" : 1610630976947,
+      "stop" : 1610630976947,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log",
+    "time" : {
+      "start" : 1610630976947,
+      "stop" : 1610630976947,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c203795550c94ac",
+      "name" : "stdout",
+      "source" : "6c203795550c94ac.txt",
+      "type" : "text/plain",
+      "size" : 112
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "duration::0",
+    "time" : {
+      "start" : 1610630976948,
+      "stop" : 1610630976948,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log::0",
+    "time" : {
+      "start" : 1610630976949,
+      "stop" : 1610630976949,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log', 'duration')"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_05"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case_05"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "256a8a5ca1f58cd7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976849,
+        "stop" : 1610630976849,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "572186a5bbc2b5de",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976849,
+        "stop" : 1610630976849,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5b31e3d368fad044",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976530,
+        "stop" : 1610630976530,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c8edb1a49c2bb3c3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976530,
+        "stop" : 1610630976530,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cfa11192cfd9c1e4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976530,
+        "stop" : 1610630976530,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8c799113088a73e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976170,
+        "stop" : 1610630976170,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "321eb25719ae45e1",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976170,
+        "stop" : 1610630976170,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a2c3a55456eafbb1",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976170,
+        "stop" : 1610630976170,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac747ee24d5e066",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976170,
+        "stop" : 1610630976170,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('log', 'duration')" ]
+  },
+  "source" : "13af5532cd7553b5.json",
+  "parameterValues" : [ ]
+}

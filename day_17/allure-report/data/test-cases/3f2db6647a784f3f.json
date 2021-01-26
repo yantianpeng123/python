@@ -1,0 +1,47 @@
+{
+  "uid" : "3f2db6647a784f3f",
+  "name" : "test_mytest",
+  "fullName" : "test_sysexit#test_mytest",
+  "historyId" : "f585014dfc7850598f6ab149af8aec39",
+  "time" : {
+    "start" : 1610630976577,
+    "stop" : 1610630976577,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_sysexit"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_sysexit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f2db6647a784f3f.json",
+  "parameterValues" : [ ]
+}

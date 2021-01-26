@@ -1,0 +1,3 @@
+INFO     beidouxing:test_recharge.py:45 ===开始测试->>充值失败--金额为负数<<--接口=====
+INFO     beidouxing:test_recharge.py:61 该用户:10195990开始充值
+INFO     beidouxing:base_test_case.py:40 充值接口功能结束

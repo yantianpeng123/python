@@ -1,0 +1,187 @@
+{
+  "uid" : "647777c20c87e0de",
+  "name" : "test_answer",
+  "fullName" : "test_case_05#test_answer",
+  "historyId" : "16b05494b686dec1392df67e90a1684a",
+  "time" : {
+    "start" : 1610630976944,
+    "stop" : 1610630976944,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 5",
+  "statusTrace" : "@pytest.mark.usefixtures(\"log\")\n    def test_answer():\n>       assert 3 ==5\nE       assert 3 == 5\n\ntest_case_05.py:26: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "log",
+    "time" : {
+      "start" : 1610630976943,
+      "stop" : 1610630976943,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 3 == 5",
+    "statusTrace" : "@pytest.mark.usefixtures(\"log\")\n    def test_answer():\n>       assert 3 ==5\nE       assert 3 == 5\n\ntest_case_05.py:26: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad9be26be95a7bb9",
+      "name" : "stdout",
+      "source" : "ad9be26be95a7bb9.txt",
+      "type" : "text/plain",
+      "size" : 56
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "log::0",
+    "time" : {
+      "start" : 1610630976945,
+      "stop" : 1610630976946,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log')"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_05"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case_05"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8b3569c2b38b3794",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976828,
+        "stop" : 1610630976828,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "60f87615121f8c05",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976828,
+        "stop" : 1610630976828,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f51867815a54f962",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976502,
+        "stop" : 1610630976503,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "74396801b3e1b237",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976502,
+        "stop" : 1610630976503,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c66000206d7ce9d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976502,
+        "stop" : 1610630976503,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dd37867d75bfe77c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976141,
+        "stop" : 1610630976141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3dca228015021c25",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976141,
+        "stop" : 1610630976141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b3f323ad4bc4caa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976141,
+        "stop" : 1610630976141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4edf5d6776216ceb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 5",
+      "time" : {
+        "start" : 1610630976141,
+        "stop" : 1610630976141,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('log')" ]
+  },
+  "source" : "647777c20c87e0de.json",
+  "parameterValues" : [ ]
+}

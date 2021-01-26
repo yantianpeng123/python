@@ -1,0 +1,276 @@
+{
+  "uid" : "8c799113088a73e",
+  "name" : "test_answer_01",
+  "fullName" : "test_case_05#test_answer_01",
+  "historyId" : "cd9ea947d233687b5a3a899b477860d6",
+  "time" : {
+    "start" : 1610630976170,
+    "stop" : 1610630976170,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+  "statusTrace" : "self = <allure_commons._allure.fixture object at 0x10c3c5b80>, args = ()\nkwargs = {}\n\n    def __call__(self, *args, **kwargs):\n        self.parameters = func_parameters(self._fixture_function, *args, **kwargs)\n    \n>       with self:\n\n/usr/local/lib/python3.8/site-packages/allure_commons/_allure.py:199: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/usr/local/lib/python3.8/site-packages/allure_commons/_allure.py:203: in __enter__\n    plugin_manager.hook.start_fixture(parent_uuid=self._parent_uuid,\n/usr/local/lib/python3.8/site-packages/allure_pytest/listener.py:52: in start_fixture\n    self.allure_logger.start_after_fixture(parent_uuid, uuid, after_fixture)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <allure_commons.reporter.AllureReporter object at 0x10c2287f0>\nparent_uuid = 'd647aafa-d12d-4c87-b4f4-aef7576b96f6'\nuuid = '6b79fcfa-632f-4d8c-b95e-fdfce8169a31'\nfixture = TestAfterResult(name='duration::0', status=None, statusDetails=None, stage=None, description=None, descriptionHtml=None, steps=[], attachments=[], parameters=[], start=1610630976171, stop=None)\n\n    def start_after_fixture(self, parent_uuid, uuid, fixture):\n>       self._items.get(parent_uuid).afters.append(fixture)\nE       AttributeError: 'NoneType' object has no attribute 'afters'\n\n/usr/local/lib/python3.8/site-packages/allure_commons/reporter.py:60: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "duration",
+    "time" : {
+      "start" : 1610630976169,
+      "stop" : 1610630976169,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "duration",
+    "time" : {
+      "start" : 1610630976169,
+      "stop" : 1610630976169,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log",
+    "time" : {
+      "start" : 1610630976168,
+      "stop" : 1610630976169,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log",
+    "time" : {
+      "start" : 1610630976168,
+      "stop" : 1610630976169,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "duration",
+    "time" : {
+      "start" : 1610630976169,
+      "stop" : 1610630976169,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "duration",
+    "time" : {
+      "start" : 1610630976169,
+      "stop" : 1610630976169,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log",
+    "time" : {
+      "start" : 1610630976168,
+      "stop" : 1610630976169,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log",
+    "time" : {
+      "start" : 1610630976168,
+      "stop" : 1610630976169,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "duration::0",
+    "time" : {
+      "start" : 1610630976170
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "duration::0",
+    "time" : {
+      "start" : 1610630976170
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log::0",
+    "time" : {
+      "start" : 1610630976172
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log::0",
+    "time" : {
+      "start" : 1610630976172
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "duration::0",
+    "time" : {
+      "start" : 1610630976170
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "duration::0",
+    "time" : {
+      "start" : 1610630976170
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log::0",
+    "time" : {
+      "start" : 1610630976172
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log::0",
+    "time" : {
+      "start" : 1610630976172
+    },
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log', 'duration')"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_05"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case_05"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('log', 'duration')" ]
+  },
+  "source" : "8c799113088a73e.json",
+  "parameterValues" : [ ]
+}

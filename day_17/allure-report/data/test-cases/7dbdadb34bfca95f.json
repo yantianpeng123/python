@@ -1,0 +1,50 @@
+{
+  "uid" : "7dbdadb34bfca95f",
+  "name" : "test_eval[data1]",
+  "fullName" : "test_case_06#test_eval",
+  "historyId" : "76341d5a437483ff7b6cebdb2c51caa0",
+  "time" : {
+    "start" : 1610630976558,
+    "stop" : 1610630976559,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_case_06"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case_06"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "('2+4', 6)"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dbdadb34bfca95f.json",
+  "parameterValues" : [ "('2+4', 6)" ]
+}

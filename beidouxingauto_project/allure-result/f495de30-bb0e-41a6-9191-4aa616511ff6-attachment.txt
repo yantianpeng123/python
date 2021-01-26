@@ -1,0 +1,2 @@
+INFO     beidouxing:base_test_case.py:36 开始测试登录接口
+INFO     beidouxing:base_test_case.py:40 登录接口功能结束

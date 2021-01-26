@@ -1,0 +1,15 @@
+INFO     beidouxing:test_recharge.py:45 ===开始测试->>充值失败--金额为0<<--接口=====
+INFO     beidouxing:test_recharge.py:61 该用户:10195990开始充值
+ERROR    beidouxing:test_recharge.py:70 充值失败--金额为0:测试失败
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_recharge.py", line 66, in test_recharge
+    self.assertEqual(rel_data['code'],expect_data['code']);
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+WARNING  beidouxing:test_recharge.py:71 请求数据是:{'member_id': 10195990, 'amount': 0}
+WARNING  beidouxing:test_recharge.py:72 期望数据是:{'code': 2, 'msg': '余额必须大于0并且小于或者等于500000'}
+WARNING  beidouxing:test_recharge.py:73 实际结果是:{'code': 0, 'msg': 'OK', 'data': {'id': 10195990, 'leave_amount': 510200.43, 'mobile_phone': '18191117172', 'reg_name': '小柠檬', 'reg_time': '2021-01-16 12:20:51.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+INFO     beidouxing:base_test_case.py:40 充值接口功能结束

@@ -1,0 +1,11 @@
+INFO     beidouxing:base_test_case.py:36 开始测试加标接口
+INFO     beidouxing:fixture.py:32 开始注册用户:{'mobile_phone': '18970031267', 'pwd': '12345678', 'type': 1}
+INFO     beidouxing:fixture.py:35 注册用户成功
+INFO     beidouxing:test_add_project.py:34 加标接口生成的手机号是:18970031267
+INFO     beidouxing:fixture.py:56 该用户开始登录:18970031267
+INFO     beidouxing:fixture.py:59 用户:10195983登录成功
+INFO     beidouxing:test_add_project.py:39 该用户是:10195983,登录成功
+INFO     beidouxing:test_add_project.py:43 开始测试-->>加标成功<<--接口
+INFO     beidouxing:test_add_project.py:72 查询用户:10195983加标的sql是:select id from loan where member_id=10195983 and amount=2000 and title='yuejie专贷' and loan_date_type=1
+INFO     beidouxing:test_add_project.py:74 该用户:10195983加标成功
+INFO     beidouxing:base_test_case.py:40 加标接口功能结束

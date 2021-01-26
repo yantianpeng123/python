@@ -12,7 +12,18 @@
 import unittest
 from beidouxingauto_project import setting
 from beidouxingauto_project.common.report_handler import report
-
+import pytest
+import os
 if __name__ == '__main__':
-    tld = unittest.TestLoader().discover(setting.TEST_DATA_DIR)
-    report(ts=tld,**setting.TEST_REPORT_CONIFIG);
+    # tld = unittest.TestLoader().discover(setting.TEST_DATA_DIR)
+    # report(ts=tld,**setting.TEST_REPORT_CONIFIG);
+    #配置allure报告
+    pytest.main(
+       [ "-s",
+        "-v",
+        "--alluredir={}".format(setting.ALLURE_RESULT_DIR),
+        "--clean-alluredir",
+        "testcases"]
+    );
+    #配置打开allure报告
+    os.system("allure serve {}".format(setting.ALLURE_RESULT_DIR)); #执行cmd命令打开allure 服务

@@ -1,0 +1,176 @@
+{
+  "uid" : "c1c77e357e99c85e",
+  "name" : "test_02",
+  "fullName" : "test_case_03#test_02",
+  "historyId" : "7bdb5bc395233bc73f93b74a6a2b5517",
+  "time" : {
+    "start" : 1610630976926,
+    "stop" : 1610630976926,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1610630976926,
+      "stop" : 1610630976926,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d960888459a8de8c",
+      "name" : "stdout",
+      "source" : "d960888459a8de8c.txt",
+      "type" : "text/plain",
+      "size" : 117
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "before::0",
+    "time" : {
+      "start" : 1610630976926,
+      "stop" : 1610630976926,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_case_03"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case_03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "948c2597b9b8fe67",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976709,
+        "stop" : 1610630976710,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e48274bf278f2e4c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976709,
+        "stop" : 1610630976710,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7eebd883e4f159a2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976369,
+        "stop" : 1610630976369,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c8fb0f2d35374532",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976369,
+        "stop" : 1610630976369,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38c831a75b517784",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630976369,
+        "stop" : 1610630976369,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f24df32972381f39",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630975998,
+        "stop" : 1610630975998,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a5ed9e30cdf394c0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630975998,
+        "stop" : 1610630975998,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ade7589f3bd980a3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630975998,
+        "stop" : 1610630975998,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f76798912d3b5b68",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'afters'",
+      "time" : {
+        "start" : 1610630975998,
+        "stop" : 1610630975998,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1c77e357e99c85e.json",
+  "parameterValues" : [ ]
+}

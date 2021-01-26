@@ -1,0 +1,12 @@
+INFO     beidouxing:test_invest.py:75 ====开始测试>>投资项目--投资成功<<接口===
+INFO     beidouxing:test_invest.py:87 该用户投资前的金额是:2000.00
+INFO     beidouxing:test_invest.py:122 该用户投资后的余额是:0.00
+INFO     beidouxing:test_invest.py:135 查找用户投资记录的sql是:select id from invest where member_id=10195987 and loan_id =43424 and amount=2000 and is_valid =1
+INFO     beidouxing:test_invest.py:138 该用户10195987,投资记录生成
+INFO     beidouxing:test_invest.py:145 查询流水记录是否生成的sql是:select * from financelog where pay_member_id = 10195987 and amount=2000 and pay_member_money=0.00
+INFO     beidouxing:test_invest.py:148 流水记录生成成功
+INFO     beidouxing:test_invest.py:156 查询该项目借款总金额的sql是:select amount from loan where id=43424
+INFO     beidouxing:test_invest.py:157 该项目的借款总金额是:20000.00
+INFO     beidouxing:test_invest.py:161 查询该项目总的投资金额的sql是:select sum(amount) as total  from  invest where loan_id =43424 and is_valid =1 
+INFO     beidouxing:test_invest.py:162 该项目总的投资金额是:2000.00
+INFO     beidouxing:base_test_case.py:40 投资接口功能结束

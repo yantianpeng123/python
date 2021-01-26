@@ -1,0 +1,2 @@
+INFO     beidouxing:test_add_project.py:43 开始测试-->>加标失败--竞标天数为空<<--接口
+INFO     beidouxing:base_test_case.py:40 加标接口功能结束

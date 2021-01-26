@@ -1,0 +1,136 @@
+{
+  "uid" : "acbbb365a2f0fa9b",
+  "name" : "test01_fun",
+  "fullName" : "test_sample#test01_fun",
+  "historyId" : "9566b1427850f896594a12ec2527d47c",
+  "time" : {
+    "start" : 1610630976960,
+    "stop" : 1610630976960,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+  "statusTrace" : "def test01_fun():\n>       assert fun(3)==5;\nE       assert 4 == 5\nE        +  where 4 = fun(3)\n\ntest_sample.py:19: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_sample"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dbc9a4707ee0f34d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976883,
+        "stop" : 1610630976884,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bccbf232bb5d1c39",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976883,
+        "stop" : 1610630976884,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "69d089a2521638e2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976571,
+        "stop" : 1610630976571,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5ee57a3ce0949d49",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976571,
+        "stop" : 1610630976571,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7359dd7288bc3fb6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976571,
+        "stop" : 1610630976571,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "78803f9a9eeb37fe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976215,
+        "stop" : 1610630976216,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e9295c968ec0edbc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976215,
+        "stop" : 1610630976216,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "21ac139dd01f50bf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976215,
+        "stop" : 1610630976216,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d26f77fadc2c57d3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = fun(3)",
+      "time" : {
+        "start" : 1610630976215,
+        "stop" : 1610630976216,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "acbbb365a2f0fa9b.json",
+  "parameterValues" : [ ]
+}

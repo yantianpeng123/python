@@ -1,0 +1,19 @@
+INFO     beidouxing:base_test_case.py:36 开始测试提现接口
+INFO     beidouxing:test_withdraw.py:32 生成的手机号是:15677983917
+INFO     beidouxing:fixture.py:32 开始注册用户:{'mobile_phone': '15677983917', 'pwd': '12345678', 'type': 1}
+INFO     beidouxing:fixture.py:35 注册用户成功
+INFO     beidouxing:fixture.py:56 该用户开始登录:15677983917
+INFO     beidouxing:fixture.py:59 用户:10195994登录成功
+INFO     beidouxing:fixture.py:82 用户:10195994,充值:500000元
+INFO     beidouxing:fixture.py:85 用户:10195994充值成功
+INFO     beidouxing:fixture.py:82 用户:10195994,充值:100000元
+INFO     beidouxing:fixture.py:85 用户:10195994充值成功
+INFO     beidouxing:test_withdraw.py:44 ===开始测试提现成功--整数===
+INFO     beidouxing:test_withdraw.py:55 查询提前之前的余额的sql是:select leave_amount from member where id=10195994
+INFO     beidouxing:test_withdraw.py:56 用户10195994提现之前的余额是:600000.00
+INFO     beidouxing:test_withdraw.py:66 ===测试提现成功--整数结束====
+INFO     beidouxing:test_withdraw.py:76 用户10195994提现之前的余额是:{'leave_amount': Decimal('599000.00')}
+INFO     beidouxing:test_withdraw.py:86 ===校验是否生成流水账单=======
+INFO     beidouxing:test_withdraw.py:89 生成流水账单的sql是:select id from financeLog where pay_member_id=10195994 and amount=1000 and pay_member_money =599000.00 
+INFO     beidouxing:test_withdraw.py:91 =====流水账单生成成功=======
+INFO     beidouxing:base_test_case.py:40 提现接口功能结束

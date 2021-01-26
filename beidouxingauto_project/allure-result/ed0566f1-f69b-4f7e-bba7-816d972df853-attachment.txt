@@ -1,0 +1,4 @@
+INFO     beidouxing:base_test_case.py:36 开始测试注册接口
+INFO     beidouxing:test_register.py:32 生成的手机号码是：13823675639
+WARNING  beidouxing:test_register.py:66 数据库校验执行的sql:select id from member where mobile_phone = '13823675639' and type =0 
+INFO     beidouxing:base_test_case.py:40 注册接口功能结束

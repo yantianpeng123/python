@@ -1,0 +1,19 @@
+INFO     beidouxing:test_invest.py:75 ====开始测试>>投资项目--投资金额大于可用余额<<接口===
+ERROR    beidouxing:test_invest.py:107 投资项目--投资金额大于可用余额:测试失败
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_invest.py", line 105, in test_invest
+    self.assertEqual(expect_data["msg"],res_json["msg"]);
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额不足' != '该标可投金额不足,可投金额：18000.0'
+- 余额不足
++ 该标可投金额不足,可投金额：18000.0
+
+WARNING  beidouxing:test_invest.py:108 请求数据是:{'member_id': 10195988, 'loan_id': 43424, 'amount': 50000}
+WARNING  beidouxing:test_invest.py:109 期望结果是:{'code': 2, 'msg': '余额不足'}
+WARNING  beidouxing:test_invest.py:110 实际结果是:{'code': 2, 'msg': '该标可投金额不足,可投金额：18000.0', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+INFO     beidouxing:base_test_case.py:40 投资接口功能结束

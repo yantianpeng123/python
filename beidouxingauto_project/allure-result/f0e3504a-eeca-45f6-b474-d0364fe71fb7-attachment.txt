@@ -1,0 +1,15 @@
+INFO     beidouxing:base_test_case.py:36 开始测试审核项目接口
+INFO     beidouxing:test_audit_project.py:34 审核项目生成的普通用户手机号是:13185357600
+INFO     beidouxing:fixture.py:32 开始注册用户:{'mobile_phone': '13185357600', 'pwd': '12345678', 'type': 1}
+INFO     beidouxing:fixture.py:35 注册用户成功
+INFO     beidouxing:fixture.py:56 该用户开始登录:13185357600
+INFO     beidouxing:fixture.py:59 用户:10195984登录成功
+INFO     beidouxing:test_audit_project.py:43 生成管理员用户的手机号是:15078898857
+INFO     beidouxing:fixture.py:32 开始注册用户:{'mobile_phone': '15078898857', 'pwd': '12345678', 'type': 0}
+INFO     beidouxing:fixture.py:35 注册用户成功
+INFO     beidouxing:fixture.py:56 该用户开始登录:15078898857
+INFO     beidouxing:fixture.py:59 用户:10195985登录成功
+INFO     beidouxing:fixture.py:119 该用户10195984加标借款成功:金额是:2000,该标的id是:43416
+INFO     beidouxing:test_audit_project.py:61 开始测试--->>审核成功<<---接口
+INFO     beidouxing:test_audit_project.py:88 项目43416审核通过
+INFO     beidouxing:base_test_case.py:40 审核项目接口功能结束

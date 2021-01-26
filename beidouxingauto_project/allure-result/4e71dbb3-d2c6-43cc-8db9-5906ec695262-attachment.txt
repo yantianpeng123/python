@@ -1,0 +1,7 @@
+INFO     beidouxing:base_test_case.py:36 开始测试投资接口
+INFO     beidouxing:test_invest.py:62 该普通用户的手机号是:15585279810，用来创建项目
+INFO     beidouxing:test_invest.py:65 该普通投资用户1的手机号是:18063962553
+INFO     beidouxing:test_invest.py:68 该普通投资用户2的手机号是:15096892838
+INFO     beidouxing:test_invest.py:71 该管理员用户的手机号是:18679389522
+INFO     beidouxing:test_invest.py:75 ====开始测试>>前置条件--注册普通用户<<接口===
+INFO     beidouxing:base_test_case.py:40 投资接口功能结束

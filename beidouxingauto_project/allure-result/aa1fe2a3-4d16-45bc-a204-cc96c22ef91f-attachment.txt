@@ -1,0 +1,3 @@
+INFO     beidouxing:fixture.py:119 该用户10195984加标借款成功:金额是:2000,该标的id是:43418
+INFO     beidouxing:test_audit_project.py:61 开始测试--->>审核失败--项目id为空<<---接口
+INFO     beidouxing:base_test_case.py:40 审核项目接口功能结束

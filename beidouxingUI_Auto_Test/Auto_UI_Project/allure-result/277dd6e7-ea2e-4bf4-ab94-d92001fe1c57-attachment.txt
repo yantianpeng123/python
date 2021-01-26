@@ -1,0 +1,10 @@
+INFO     beidouxing:base_page.py:74 在首页,选择第一个进行投标操作的时候，等待('xpath', "//div[@class='b-unit-list clearfix']/div[2]//a[text()='抢投标']")元素可见【成功】
+INFO     beidouxing:base_page.py:148 在首页,选择第一个进行投标操作的时候，点击('xpath', "//div[@class='b-unit-list clearfix']/div[2]//a[text()='抢投标']")元素【成功】
+INFO     beidouxing:base_page.py:74 在标详情页面,输入投资金额操作的时候，等待('xpath', "//div[@class='in']/div/input")元素可见【成功】
+INFO     beidouxing:base_page.py:227 在标详情页面,输入投资金额操作的时候，对('xpath', "//div[@class='in']/div/input")元素输入 【成功】
+INFO     beidouxing:base_page.py:99 在标详情页面,点击投标按钮操作的时候，该('xpath', "//div[@class='pd-right']//button")元素可以点击【成功】
+INFO     beidouxing:base_page.py:148 在标详情页面,点击投标按钮操作的时候，点击('xpath', "//div[@class='pd-right']//button")元素【成功】
+INFO     beidouxing:base_page.py:74 在标详情页面,获取错误提示信息操作的时候，等待('xpath', "//div[@id='layui-layer1']//div[@class='text-center']")元素可见【成功】
+ERROR    beidouxing:base_page.py:165 在标详情页面,获取错误提示信息操作的时候，获取('xpath', "//div[@id='layui-layer1']//div[@class='text-center']")元素文本内容【成功】,内容为:请正确填写投标金额
+NoneType: None
+INFO     beidouxing:base_case_test.py:47 投资金额为空:断言成功

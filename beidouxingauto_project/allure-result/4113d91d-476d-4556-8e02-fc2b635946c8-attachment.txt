@@ -1,0 +1,9 @@
+INFO     beidouxing:test_withdraw.py:44 ===开始测试提现成功--2位小数===
+INFO     beidouxing:test_withdraw.py:55 查询提前之前的余额的sql是:select leave_amount from member where id=10195994
+INFO     beidouxing:test_withdraw.py:56 用户10195994提现之前的余额是:590111.20
+INFO     beidouxing:test_withdraw.py:66 ===测试提现成功--2位小数结束====
+INFO     beidouxing:test_withdraw.py:76 用户10195994提现之前的余额是:{'leave_amount': Decimal('581222.32')}
+INFO     beidouxing:test_withdraw.py:86 ===校验是否生成流水账单=======
+INFO     beidouxing:test_withdraw.py:89 生成流水账单的sql是:select id from financeLog where pay_member_id=10195994 and amount=8888.88 and pay_member_money =581222.32 
+INFO     beidouxing:test_withdraw.py:91 =====流水账单生成成功=======
+INFO     beidouxing:base_test_case.py:40 提现接口功能结束

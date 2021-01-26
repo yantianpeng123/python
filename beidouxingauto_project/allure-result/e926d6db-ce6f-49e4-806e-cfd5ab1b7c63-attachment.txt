@@ -1,0 +1,12 @@
+INFO     beidouxing:test_recharge.py:45 ===开始测试->>充值成功--50万<<--接口=====
+INFO     beidouxing:test_recharge.py:53 查询该用户:10195990充值之前的sql是:select leave_amount from member where id='10195990'
+INFO     beidouxing:test_recharge.py:56 该用户:10195990充值之前的余额是:10200.43
+INFO     beidouxing:test_recharge.py:61 该用户:10195990开始充值
+INFO     beidouxing:test_recharge.py:78 该用户:10195990,充值之后的余额是:510200.43
+INFO     beidouxing:test_recharge.py:84 数据库校验成功,该用户10195990充值成功
+INFO     beidouxing:test_recharge.py:93 数据库余额和当前接口返回是一致
+INFO     beidouxing:test_recharge.py:100 开始校验该用户:10195990是否生成流水账单
+INFO     beidouxing:test_recharge.py:104 校验该用户:10195990 生成流水账单的sql是:select id from financelog where income_member_id='10195990' and amount=500000 and income_member_money=510200.43
+INFO     beidouxing:test_recharge.py:106 该用户:10195990生成流水账单校验通过
+INFO     beidouxing:test_recharge.py:107 该用户10195990充值成功，充值的金额是:500000
+INFO     beidouxing:base_test_case.py:40 充值接口功能结束

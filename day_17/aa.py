@@ -9,4 +9,11 @@
 # @File    : aa.py
 # @Software: PyCharm
 '''
-$END$
+import os
+
+def aa():
+    path = os.getcwd();
+    print(path)
+
+if __name__ == '__main__':
+    aa()

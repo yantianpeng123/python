@@ -1,0 +1,15 @@
+INFO     beidouxing:fixture.py:119 该用户10195984加标借款成功:金额是:2000,该标的id是:43421
+INFO     beidouxing:test_audit_project.py:61 开始测试--->>审核失败--多次审核<<---接口
+ERROR    beidouxing:test_audit_project.py:76 审核失败--多次审核:测试失败
+Traceback (most recent call last):
+  File "/Users/yantianpeng/PycharmProjects/beidouxing888/beidouxingauto_project/testcases/test_audit_project.py", line 73, in test_audit_project
+    self.assertEqual(rel_data['code'],expect_data['code']);
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+WARNING  beidouxing:test_audit_project.py:77 请求数据是:{'loan_id': 43421, 'approved_or_not': False}
+WARNING  beidouxing:test_audit_project.py:78 期望结果是:{'code': 2, 'msg': '项目不在审核中状态'}
+WARNING  beidouxing:test_audit_project.py:79 实际结果是:{'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+INFO     beidouxing:base_test_case.py:40 审核项目接口功能结束

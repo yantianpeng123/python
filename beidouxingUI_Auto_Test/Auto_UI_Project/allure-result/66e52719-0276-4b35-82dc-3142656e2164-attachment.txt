@@ -1,0 +1,10 @@
+INFO     beidouxing:test_invest.py:77 =====不是10的整数倍:开始测试=====
+INFO     beidouxing:base_page.py:74 在首页,选择第一个进行投标操作的时候，等待('xpath', "//div[@class='b-unit-list clearfix']/div[2]//a[text()='抢投标']")元素可见【成功】
+INFO     beidouxing:base_page.py:148 在首页,选择第一个进行投标操作的时候，点击('xpath', "//div[@class='b-unit-list clearfix']/div[2]//a[text()='抢投标']")元素【成功】
+INFO     beidouxing:base_page.py:74 在标详情页面,输入投资金额操作的时候，等待('xpath', "//div[@class='in']/div/input")元素可见【成功】
+INFO     beidouxing:base_page.py:227 在标详情页面,输入投资金额操作的时候，对('xpath', "//div[@class='in']/div/input")元素输入11【成功】
+INFO     beidouxing:base_page.py:74 在标详情页面,点击投资按钮操作的时候，等待('xpath', "//div[@class='pd-right']//button")元素可见【成功】
+ERROR    beidouxing:base_page.py:165 在标详情页面,点击投资按钮操作的时候，获取('xpath', "//div[@class='pd-right']//button")元素文本内容【成功】,内容为:请输入10的整数倍
+NoneType: None
+INFO     beidouxing:base_case_test.py:47 不是10的整数倍:断言成功
+INFO     beidouxing:test_invest.py:87 =====不是10的整数倍:结束测试=====

@@ -1,0 +1,140 @@
+{
+  "uid" : "fac3f616ed547ed0",
+  "name" : "test_01",
+  "fullName" : "test_case_01.Test_abc#test_01",
+  "historyId" : "b8eac9c6663b7a081be2fd9dedaebac5",
+  "time" : {
+    "start" : 1610630976918,
+    "stop" : 1610630976919,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cedc38274ae8d7db",
+      "name" : "stdout",
+      "source" : "cedc38274ae8d7db.txt",
+      "type" : "text/plain",
+      "size" : 79
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_case_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_abc"
+  }, {
+    "name" : "host",
+    "value" : "yantianpeng.local"
+  }, {
+    "name" : "thread",
+    "value" : "28074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b2def0209052379c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630976683,
+        "stop" : 1610630976683,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "adad2682ba6bb73d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630976683,
+        "stop" : 1610630976683,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6193560ea358ac46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630976338,
+        "stop" : 1610630976339,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "22f926c73f43c977",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630976338,
+        "stop" : 1610630976339,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ef2a7eecd178d04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630976338,
+        "stop" : 1610630976339,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8bb5e811361ab6a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630975951,
+        "stop" : 1610630975951,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "16cbf63e71b257a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630975951,
+        "stop" : 1610630975951,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "321fdbbcb4181795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630975951,
+        "stop" : 1610630975951,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b137173635ed3582",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610630975951,
+        "stop" : 1610630975951,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fac3f616ed547ed0.json",
+  "parameterValues" : [ ]
+}

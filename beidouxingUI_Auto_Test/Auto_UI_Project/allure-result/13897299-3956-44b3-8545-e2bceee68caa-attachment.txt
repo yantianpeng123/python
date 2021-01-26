@@ -1,0 +1,17 @@
+INFO     beidouxing:test_invest.py:46 =====投资200成功开始测试=====
+INFO     beidouxing:base_page.py:74 在首页,选择第一个进行投标操作的时候，等待('xpath', "//div[@class='b-unit-list clearfix']/div[2]//a[text()='抢投标']")元素可见【成功】
+INFO     beidouxing:base_page.py:148 在首页,选择第一个进行投标操作的时候，点击('xpath', "//div[@class='b-unit-list clearfix']/div[2]//a[text()='抢投标']")元素【成功】
+INFO     beidouxing:base_page.py:74 在标详情页面,获取用户的余额操作的时候，等待('xpath', "//div[@class='in']/div/input")元素可见【成功】
+INFO     beidouxing:base_page.py:185 在标详情页面,获取用户的余额操作的时候,获取元素的属性的值【成功】,属性的值是:('xpath', "//div[@class='in']/div/input")
+INFO     beidouxing:base_page.py:74 在标详情页面,获取标的可投资余额操作的时候，等待('xpath', "//div[@class='in']/div/input")元素可见【成功】
+INFO     beidouxing:base_page.py:185 在标详情页面,获取标的可投资余额操作的时候,获取元素的属性的值【成功】,属性的值是:('xpath', "//div[@class='in']/div/input")
+INFO     beidouxing:base_page.py:74 在标详情页面,输入投资金额操作的时候，等待('xpath', "//div[@class='in']/div/input")元素可见【成功】
+INFO     beidouxing:base_page.py:227 在标详情页面,输入投资金额操作的时候，对('xpath', "//div[@class='in']/div/input")元素输入200【成功】
+INFO     beidouxing:base_page.py:99 在标详情页面,点击投标按钮操作的时候，该('xpath', "//div[@class='pd-right']//button")元素可以点击【成功】
+INFO     beidouxing:base_page.py:148 在标详情页面,点击投标按钮操作的时候，点击('xpath', "//div[@class='pd-right']//button")元素【成功】
+INFO     beidouxing:base_page.py:74 在标详情页面,操作的时候，等待('xpath', "//div[contains(@id,'layui-layer')]//button")元素可见【成功】
+INFO     beidouxing:base_case_test.py:47 投资200成功:断言成功
+INFO     beidouxing:base_page.py:74 在标详情页面,获取用户的余额操作的时候，等待('xpath', "//div[@class='in']/div/input")元素可见【成功】
+INFO     beidouxing:base_page.py:185 在标详情页面,获取用户的余额操作的时候,获取元素的属性的值【成功】,属性的值是:('xpath', "//div[@class='in']/div/input")
+INFO     beidouxing:base_page.py:74 在标详情页面,获取标的可投资余额操作的时候，等待('xpath', "//div[@class='in']/div/input")元素可见【成功】
+INFO     beidouxing:base_page.py:185 在标详情页面,获取标的可投资余额操作的时候,获取元素的属性的值【成功】,属性的值是:('xpath', "//div[@class='in']/div/input")

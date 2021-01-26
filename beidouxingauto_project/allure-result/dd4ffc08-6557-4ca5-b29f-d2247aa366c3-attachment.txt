@@ -1,0 +1,3 @@
+INFO     beidouxing:test_withdraw.py:44 ===开始测试提现失败--用户id为空===
+INFO     beidouxing:test_withdraw.py:66 ===测试提现失败--用户id为空结束====
+INFO     beidouxing:base_test_case.py:40 提现接口功能结束

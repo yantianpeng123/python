@@ -71,3 +71,6 @@ MYSQL_DATA_CONFIG = {
      "autocommit": True, #解决可重复的
      "charset": "utf8"
 }
+
+#配置allure结果路径
+ALLURE_RESULT_DIR = os.path.join(BASE_PATH,"allure-result");

@@ -1,0 +1,2 @@
+INFO     beidouxing:test_invest.py:75 ====开始测试>>投资项目--投资失败金额为空<<接口===
+INFO     beidouxing:base_test_case.py:40 投资接口功能结束

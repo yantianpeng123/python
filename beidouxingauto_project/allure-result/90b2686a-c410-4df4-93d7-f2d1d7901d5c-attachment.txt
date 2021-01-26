@@ -1,0 +1,1 @@
+INFO     beidouxing:base_test_case.py:40 登录接口功能结束
